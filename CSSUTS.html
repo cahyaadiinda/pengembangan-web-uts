@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssuts</title>
+    <style>
+        .image-container {
+            display: flex; /* Gunakan Flexbox untuk tata letak horizontal */
+            justify-content: space-around; /* Mengatur jarak antar gambar */
+            align-items: center; /* Menyelaraskan gambar secara vertikal */
+        }
+        .image-container img {
+            max-width: 150px; /* Mengatur lebar maksimum gambar */
+            height: auto; /* Menjaga rasio gambar */
+            margin: 5px; /* Memberikan jarak antar gambar */
+        }
+    </style>
+</head>
+<body>
+    <h1>The Yucca Series</h1>
+    <div class="image-container">
+        <img src="gambar1.jpg" alt="Savanna Right">
+        <img src="gambar2.jpg" alt="Savanna Left">
+        <img src="gambar3.jpg" alt="Savanna Back">
+    </div>
+</body>
+</html>
